@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter3_test/beccpecter/model/screens/get_product.dart';
 import 'package:flutter3_test/secondLecture/product_screen.dart';
 import 'package:flutter3_test/secondLecture/screens/nav.dart';
 
@@ -19,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home:  NavScreen(),
+      home:  GetProduct(),
     );
   }
 }
